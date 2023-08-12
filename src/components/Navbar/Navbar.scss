@@ -1,0 +1,124 @@
+.app__navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 15vw;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    position: fixed;
+    z-index: 2;
+}
+
+.app__navbar-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    img {
+        width: 180px;
+        height: 40px;
+    }
+}
+
+.app__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+
+    ul {
+        display: flex;
+
+        li {
+            margin: 0 1rem;
+            cursor: pointer;
+            flex-direction: column;
+
+            a {
+                color: var(--gray-color);
+                text-decoration: none;
+                flex-direction: column;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-family: var(--font-base);
+                transition: all 0.3s ease-in-out;
+
+                &:hover {
+                    color: var(--secondary-color);
+                }
+            }
+        }
+
+        .is-current {
+            a {
+                color: var(--secondary-color);
+            }
+        }
+    }
+
+    @media screen and (max-width: 799px) {
+        display: none;
+    }
+}
+
+.app__navbar-menu {
+    width: 40px;
+    height: 40px;
+    border-radius: 20%;
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+
+    svg {
+        width: 70%;
+        height: 70%;
+        color: var(--white-color);
+    }
+
+    ul {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+        height: 90%;
+        width: 100%;
+        z-index: 2;
+
+        li {
+            margin: 1rem 0;
+
+            a {
+                position: relative;
+                width: 40px;
+                height: 40px;
+                border-radius: 20%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: var(--secondary-color);
+            }
+    
+            svg {
+                width: 60%;
+                height: 60%;
+            }
+        }
+    }
+
+    @media screen and (min-width: 800px) {
+        display: none;
+    }
+}
