@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7b2aea1b.css",
+    "main.js": "/static/js/main.ee368d7c.js",
+    "static/media/mysql.png": "/static/media/mysql.c65ed9428a92e6a21eeb.png",
+    "static/media/whatsapp.png": "/static/media/whatsapp.e714b606dde3163f5ddb.png",
+    "static/media/profile-img.jpeg": "/static/media/profile-img.cddfed1ec6c37b2ad964.jpeg",
+    "static/media/solidity.png": "/static/media/solidity.ebb6f5ae8a617557a53c.png",
+    "static/media/ionic.png": "/static/media/ionic.4b2135c002aafce8b2c5.png",
+    "static/media/csharp.png": "/static/media/csharp.509c1a4773a41d73a664.png",
+    "static/media/scss.png": "/static/media/scss.36e863bfbcb25c109d00.png",
+    "static/media/axure.jpg": "/static/media/axure.da398c4aa39d28788f3a.jpg",
+    "static/media/company2.png": "/static/media/company2.74cd11d77b062ca4ba30.png",
+    "static/media/marvel.png": "/static/media/marvel.2096c3a60b9090890324.png",
+    "static/media/logo.png": "/static/media/logo.3350996354cc4fda4851.png",
+    "static/media/aspnet.png": "/static/media/aspnet.e647623f7de382695c58.png",
+    "static/media/email.png": "/static/media/email.37b9e890eea501421fbf.png",
+    "static/media/company1.png": "/static/media/company1.fcd9523ba1ab4ba91db8.png",
+    "static/media/css.png": "/static/media/css.5721a3928fe43de6baf8.png",
+    "index.html": "/index.html",
+    "main.7b2aea1b.css.map": "/static/css/main.7b2aea1b.css.map",
+    "main.ee368d7c.js.map": "/static/js/main.ee368d7c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b2aea1b.css",
+    "static/js/main.ee368d7c.js"
+  ]
+}
