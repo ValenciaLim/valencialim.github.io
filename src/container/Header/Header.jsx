@@ -20,13 +20,10 @@ const Header = () => {
                   < a href="#home"><AiOutlineHome /></a>
                 </li>
                 <li>
-                  < a href="#about"><BsPerson /></a>
-                </li>
-                <li>
                   < a href="#skills"><SiSkillshare /></a>
                 </li>
                 <li>
-                  < a href="#projects"><AiOutlineFolderOpen /></a>
+                  < a href="#experiences"><AiOutlineFolderOpen /></a>
                 </li>
                 <li>
                   < a href="#contact"><BsSend /></a>
