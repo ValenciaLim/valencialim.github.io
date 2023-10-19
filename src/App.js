@@ -1,6 +1,6 @@
 import './App.scss';
-import React from 'react'
-import { Header, Home, Projects, Skills, Footer } from './container';
+import React from 'react';
+import { Header, Home, Experience, Skills, Portfolio, Footer } from './container';
 
 const App = () => {
   return (
@@ -8,7 +8,8 @@ const App = () => {
       <Header />
       <Home />
       <Skills />
-      <Projects />
+      <Experience />
+      <Portfolio />
       <Footer />
     </div>
   )
