@@ -23,7 +23,7 @@ const Home = () => {
         </p>
         < Social />
         <div className="home__btns">
-          <a href={process.env.PUBLIC_URL + "/Lim_Rui_Ting_Valencia_Resume.pdf"} target="_blank" className="btn">Download CV</a>
+          <a href='/Lim Rui Ting Valencia Resume.pdf' target="_blank" className="btn">Download CV</a>
         </div>
       </div>
     </section>

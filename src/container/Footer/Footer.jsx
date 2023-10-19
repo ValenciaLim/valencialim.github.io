@@ -4,7 +4,7 @@ import { images } from '../../constants';
 
 const Footer = () => {
   return (
-    <section className="app__footer" id="contact">
+    <section className="app__footer" id='contact'>
       <h2 className="section__title head-text">Take a Coffee & Chat With Me</h2>
       <div className="app__footer-cards">
         <div className="app__footer-card ">

@@ -4,7 +4,7 @@ import { HiMenu } from 'react-icons/hi';
 import { AiOutlineHome, AiOutlineFolderOpen } from 'react-icons/ai';
 import { BsPerson, BsSend } from 'react-icons/bs'
 import { SiSkillshare } from 'react-icons/si'
-import { Navbar } from '../../components';
+import { Navbar, NavigationDots } from '../../components';
 
 const Header = () => {
   const [toggle, setToggle] = useState(false)
@@ -20,10 +20,13 @@ const Header = () => {
                   < a href="#home"><AiOutlineHome /></a>
                 </li>
                 <li>
+                  < a href="#about"><BsPerson /></a>
+                </li>
+                <li>
                   < a href="#skills"><SiSkillshare /></a>
                 </li>
                 <li>
-                  < a href="#experiences"><AiOutlineFolderOpen /></a>
+                  < a href="#projects"><AiOutlineFolderOpen /></a>
                 </li>
                 <li>
                   < a href="#contact"><BsSend /></a>
