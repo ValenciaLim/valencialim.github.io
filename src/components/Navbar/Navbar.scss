@@ -30,31 +30,21 @@
     align-items: center;
     
 
-    ul {
-        display: flex;
+    li {
+        margin: 0 1rem;
+        cursor: pointer;
+        flex-direction: column;
 
-        li {
-            margin: 0 1rem;
-            cursor: pointer;
+        a {
+            color: var(--gray-color);
+            text-decoration: none;
             flex-direction: column;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-family: var(--font-base);
+            transition: all 0.3s ease-in-out;
 
-            a {
-                color: var(--gray-color);
-                text-decoration: none;
-                flex-direction: column;
-                text-transform: uppercase;
-                font-weight: bold;
-                font-family: var(--font-base);
-                transition: all 0.3s ease-in-out;
-
-                &:hover {
-                    color: var(--secondary-color);
-                }
-            }
-        }
-
-        .is-current {
-            a {
+            &:hover {
                 color: var(--secondary-color);
             }
         }
